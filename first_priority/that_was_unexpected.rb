@@ -21,9 +21,11 @@ class Person
   def ballin_candy_lover?
     if @candy_lover == true
       puts "Aw sweet, this cat loves them some candy!"
+      return true
     else
       10.times do
         puts "not a ballin candy lover"
+      return false
     end
   end
 end
